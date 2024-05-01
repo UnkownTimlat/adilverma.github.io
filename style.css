@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: purple;
+}
+
+nav {
+    background-color: #fff;
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.photo {
+    margin: 30px 10px;
+}
+
+.photo img {
+    border-radius: 50%;
+    border: 5px solid rgb(20, 145, 93);
+}
+
+.adil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    padding: 0 220px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.about {
+    color: rgba(166, 255, 0, 0.897);
+    padding: 30px 30px;
+}
